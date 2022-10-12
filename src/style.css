@@ -1,0 +1,50 @@
+.card {
+  background-color: lightblue;
+
+  color: black;
+}
+
+.cities {
+  width: auto;
+  position: relative;
+  font-size: 14px;
+}
+.temperature {
+  margin: auto;
+  text-align: center;
+  font-size: 36px;
+}
+.units {
+  position: relative;
+  margin: auto;
+  top: -34px;
+  font-size: 36px;
+}
+.btn {
+  padding: 3px 10px;
+  background-color: lightgrey;
+  position: relative;
+  top: -2px;
+  color: black;
+}
+.today {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin: 0;
+  font-size: 12px;
+}
+.weather-pic {
+  margin: 10;
+  position: relative;
+}
+.days {
+  margin: auto;
+  text-align: center;
+}
+.temp {
+  margin: auto;
+  text-align: center;
+}
+.images {
+  width: auto;
+}
