@@ -1,18 +1,46 @@
 .card {
   background-color: lightblue;
-
+  max-width: 600px;
   color: black;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  margin: 30px auto;
+  padding: 20px;
 }
-
 .cities {
   width: auto;
   position: relative;
   font-size: 14px;
 }
+h2 {
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+}
+.image {
+  width: 80px;
+}
 .temperature {
   margin: auto;
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
+
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .units {
   position: relative;
@@ -27,12 +55,7 @@
   top: -2px;
   color: black;
 }
-.today {
-  margin-bottom: 1em;
-  margin-top: 1em;
-  margin: 0;
-  font-size: 12px;
-}
+
 .weather-pic {
   margin: 10;
   position: relative;
@@ -47,4 +70,8 @@
 }
 .images {
   width: auto;
+}
+.footer {
+  font-size: 10px;
+  margin: 0;
 }
