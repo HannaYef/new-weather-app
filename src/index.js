@@ -17,11 +17,14 @@ p.innerHTML = `${day}, ${hours}:${minutes}`;
 function convertToFahrenheit(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = 66;
+  let fahrenheitTemperature = (celsiusLink * 9) / 5 + 32;
+
+  temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
 
 function convertToCelsius(event) {
   event.preventDefault();
+
   let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = 19;
 }
@@ -73,7 +76,7 @@ function showWeather(response) {
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 function searchCity(city) {
-  let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
+  let apiKey = "2dc8d5bfb3f0f03b39d7f08468a66c84";
   let units = "metric";
 
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
