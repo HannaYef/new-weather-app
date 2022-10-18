@@ -4,7 +4,7 @@
   margin: 10px auto;
 }
 .card-body {
-  background-color: lightblue;
+  background-color: lightgrey;
 
   color: black;
   border: 1px solid darkgray;
@@ -61,20 +61,20 @@ li {
   color: black;
 }
 
-.weather-pic {
-  margin: 10;
-  position: relative;
-}
-.days {
-  margin: auto;
+.weather-forecast {
+  margin-top: 10px;
   text-align: center;
+  color: black;
 }
-.temp {
-  margin: auto;
-  text-align: center;
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
 }
-.images {
-  width: auto;
+.weather-forecast-temp {
+  font-size: 14px;
+}
+.weather-forecast-temp-min {
+  opacity: 0.6;
 }
 .footer {
   font-size: 10px;
